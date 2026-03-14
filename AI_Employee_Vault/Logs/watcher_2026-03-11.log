@@ -1,0 +1,7 @@
+2026-03-11 17:05:17,271 - FilesystemWatcher - INFO - Loaded 0 processed IDs from state
+2026-03-11 17:05:17,272 - FilesystemWatcher - INFO - Loaded 3 file hashes
+2026-03-11 17:05:17,273 - FilesystemWatcher - INFO - Starting FilesystemWatcher
+2026-03-11 17:05:17,273 - FilesystemWatcher - INFO - Vault path: C:\Users\abRahman\Desktop\personal-ai-employee-0-heck-2026\AI_Employee_Vault
+2026-03-11 17:05:17,273 - FilesystemWatcher - INFO - Check interval: 5s
+2026-03-11 17:08:17,440 - FilesystemWatcher - INFO - Found 1 new item(s)
+2026-03-11 17:08:17,505 - FilesystemWatcher - INFO - Created action file: FILE_test.txt.md
