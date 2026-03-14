@@ -1,6 +1,7 @@
 ---
-last_updated: 2026-03-14T14:47:30.242320
+last_updated: 2026-03-14T21:36:57.174259
 status: active
+tier: silver
 ---
 
 # AI Employee Dashboard
@@ -20,15 +21,27 @@ status: active
 *No pending actions*
 
 ### In Progress Tasks
-*No tasks in progress*
+*Processing with Qwen Code*
 
 ### Awaiting Your Approval
 *No items awaiting approval*
 
 ## Recent Activity
 
-- Orchestrator initialized (Qwen Code mode)
-- Auto-processing: enabled
+- Running orchestration cycle
+- Dashboard updated
+- Running orchestration cycle
+- Dashboard updated
+- Running orchestration cycle
+- Dashboard updated
+- Running orchestration cycle
+- Dashboard updated
+- Running orchestration cycle
+- Dashboard updated
+- Running orchestration cycle
+- Dashboard updated
+- Running orchestration cycle
+- Dashboard updated
 - Running orchestration cycle
 
 ---
@@ -41,7 +54,16 @@ status: active
 - **Status**: On track
 
 ### Active Projects
-1. AI Employee Development (Bronze Tier - Qwen Code)
+1. AI Employee Development (Silver Tier)
+2. Gmail Integration
+3. LinkedIn Automation
+
+### Watchers Status
+| Watcher | Status | Last Check |
+|---------|--------|------------|
+| Filesystem | Running | Active |
+| Gmail | Ready | Configured |
+| LinkedIn | Ready | Configured |
 
 ---
 
@@ -52,9 +74,10 @@ status: active
 - /Needs_Action/ - Items requiring processing
 - /Plans/ - Active plans
 - /Pending_Approval/ - Awaiting your decision
+- /Approved/ - Approved actions (auto-processing)
 - /Done/ - Completed tasks
 
 ---
 
-*Last generated: 2026-03-14 14:47*
-*AI Employee v0.1 (Bronze Tier - Qwen Code)*
+*Last generated: 2026-03-14 21:36*
+*AI Employee v0.2 (Silver Tier)*

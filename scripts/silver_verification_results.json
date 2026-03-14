@@ -1,0 +1,123 @@
+{
+  "tier": "silver",
+  "timestamp": "2026-03-14T17:35:37.381846",
+  "passed": 0,
+  "failed": 19,
+  "total": 19,
+  "checks": [
+    {
+      "name": "Vault folder structure",
+      "passed": false,
+      "details": "Missing folders",
+      "timestamp": "2026-03-14T17:35:37.349795"
+    },
+    {
+      "name": "Core vault files",
+      "passed": false,
+      "details": "Missing core files",
+      "timestamp": "2026-03-14T17:35:37.352333"
+    },
+    {
+      "name": "Bronze Tier scripts",
+      "passed": false,
+      "details": "Missing scripts",
+      "timestamp": "2026-03-14T17:35:37.352796"
+    },
+    {
+      "name": "Filesystem Watcher",
+      "passed": false,
+      "details": "scripts/filesystem_watcher.py",
+      "timestamp": "2026-03-14T17:35:37.354795"
+    },
+    {
+      "name": "Gmail Watcher",
+      "passed": false,
+      "details": "scripts/gmail_watcher.py",
+      "timestamp": "2026-03-14T17:35:37.356156"
+    },
+    {
+      "name": "LinkedIn Watcher",
+      "passed": false,
+      "details": "scripts/linkedin_watcher.py",
+      "timestamp": "2026-03-14T17:35:37.357902"
+    },
+    {
+      "name": "Base Watcher",
+      "passed": false,
+      "details": "scripts/base_watcher.py",
+      "timestamp": "2026-03-14T17:35:37.361795"
+    },
+    {
+      "name": "Email MCP Server",
+      "passed": false,
+      "details": "Not found",
+      "timestamp": "2026-03-14T17:35:37.363796"
+    },
+    {
+      "name": "Watcher count (\u22652 required)",
+      "passed": false,
+      "details": "Only 0 watcher(s)",
+      "timestamp": "2026-03-14T17:35:37.365807"
+    },
+    {
+      "name": "Gmail credentials (credentials.json)",
+      "passed": false,
+      "details": "Download from Google Cloud Console",
+      "timestamp": "2026-03-14T17:35:37.368217"
+    },
+    {
+      "name": "Orchestrator",
+      "passed": false,
+      "details": "orchestrator.py not found",
+      "timestamp": "2026-03-14T17:35:37.369923"
+    },
+    {
+      "name": "Pending_Approval folder",
+      "passed": false,
+      "details": "Create folder",
+      "timestamp": "2026-03-14T17:35:37.370960"
+    },
+    {
+      "name": "Approved folder",
+      "passed": false,
+      "details": "Create folder",
+      "timestamp": "2026-03-14T17:35:37.371929"
+    },
+    {
+      "name": "Orchestrator",
+      "passed": false,
+      "details": "orchestrator.py not found",
+      "timestamp": "2026-03-14T17:35:37.373290"
+    },
+    {
+      "name": "Plans folder",
+      "passed": false,
+      "details": "Create folder",
+      "timestamp": "2026-03-14T17:35:37.373793"
+    },
+    {
+      "name": "Email MCP Server",
+      "passed": false,
+      "details": "Not found",
+      "timestamp": "2026-03-14T17:35:37.375791"
+    },
+    {
+      "name": "Start script",
+      "passed": false,
+      "details": "Create start.bat",
+      "timestamp": "2026-03-14T17:35:37.376797"
+    },
+    {
+      "name": "README.md",
+      "passed": false,
+      "details": "Create README",
+      "timestamp": "2026-03-14T17:35:37.378793"
+    },
+    {
+      "name": "SILVER_TIER_SUMMARY.md",
+      "passed": false,
+      "details": "Will be created",
+      "timestamp": "2026-03-14T17:35:37.379875"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "tier": "silver",
+  "timestamp": "2026-03-14T20:57:07.264138",
+  "passed": 26,
+  "failed": 0,
+  "total": 26,
+  "checks": [
+    {
+      "name": "Vault folder structure",
+      "passed": true,
+      "details": "All required folders exist",
+      "timestamp": "2026-03-14T20:57:07.232140"
+    },
+    {
+      "name": "Core vault files",
+      "passed": true,
+      "details": "Dashboard, Handbook, Goals exist",
+      "timestamp": "2026-03-14T20:57:07.234139"
+    },
+    {
+      "name": "Bronze Tier scripts",
+      "passed": true,
+      "details": "Base, Filesystem watchers + Orchestrator",
+      "timestamp": "2026-03-14T20:57:07.236144"
+    },
+    {
+      "name": "Filesystem Watcher",
+      "passed": true,
+      "details": "scripts/filesystem_watcher.py",
+      "timestamp": "2026-03-14T20:57:07.238138"
+    },
+    {
+      "name": "Gmail Watcher",
+      "passed": true,
+      "details": "scripts/gmail_watcher.py",
+      "timestamp": "2026-03-14T20:57:07.239141"
+    },
+    {
+      "name": "LinkedIn Watcher",
+      "passed": true,
+      "details": "scripts/linkedin_watcher.py",
+      "timestamp": "2026-03-14T20:57:07.240139"
+    },
+    {
+      "name": "Base Watcher",
+      "passed": true,
+      "details": "scripts/base_watcher.py",
+      "timestamp": "2026-03-14T20:57:07.240139"
+    },
+    {
+      "name": "Email MCP Server",
+      "passed": true,
+      "details": "Email sending capability",
+      "timestamp": "2026-03-14T20:57:07.241138"
+    },
+    {
+      "name": "Watcher count (\u22652 required)",
+      "passed": true,
+      "details": "3 watchers found",
+      "timestamp": "2026-03-14T20:57:07.243138"
+    },
+    {
+      "name": "Gmail credentials (credentials.json)",
+      "passed": true,
+      "details": "OAuth credentials configured",
+      "timestamp": "2026-03-14T20:57:07.244137"
+    },
+    {
+      "name": "Credentials format",
+      "passed": true,
+      "details": "Valid Google OAuth format",
+      "timestamp": "2026-03-14T20:57:07.245138"
+    },
+    {
+      "name": "Approval request logic",
+      "passed": true,
+      "details": "Orchestrator checks for approval requirements",
+      "timestamp": "2026-03-14T20:57:07.247140"
+    },
+    {
+      "name": "Pending_Approval folder handling",
+      "passed": true,
+      "details": "Orchestrator manages approval queue",
+      "timestamp": "2026-03-14T20:57:07.248137"
+    },
+    {
+      "name": "Approved items processing",
+      "passed": true,
+      "details": "Orchestrator processes approved items",
+      "timestamp": "2026-03-14T20:57:07.248137"
+    },
+    {
+      "name": "Pending_Approval folder",
+      "passed": true,
+      "details": "Folder for approval requests",
+      "timestamp": "2026-03-14T20:57:07.249139"
+    },
+    {
+      "name": "Approved folder",
+      "passed": true,
+      "details": "Folder for approved actions",
+      "timestamp": "2026-03-14T20:57:07.250139"
+    },
+    {
+      "name": "Processing summary creation",
+      "passed": true,
+      "details": "Orchestrator creates summaries",
+      "timestamp": "2026-03-14T20:57:07.251140"
+    },
+    {
+      "name": "Plans folder integration",
+      "passed": true,
+      "details": "Orchestrator uses Plans folder",
+      "timestamp": "2026-03-14T20:57:07.252139"
+    },
+    {
+      "name": "Plans folder",
+      "passed": true,
+      "details": "Folder for processing summaries",
+      "timestamp": "2026-03-14T20:57:07.253141"
+    },
+    {
+      "name": "Email MCP Server",
+      "passed": true,
+      "details": "scripts/email_mcp_server.py",
+      "timestamp": "2026-03-14T20:57:07.254139"
+    },
+    {
+      "name": "Email send capability",
+      "passed": true,
+      "details": "Can send emails via Gmail API",
+      "timestamp": "2026-03-14T20:57:07.255137"
+    },
+    {
+      "name": "Email draft capability",
+      "passed": true,
+      "details": "Can create drafts",
+      "timestamp": "2026-03-14T20:57:07.255137"
+    },
+    {
+      "name": "Start script",
+      "passed": true,
+      "details": "Batch file to start all watchers",
+      "timestamp": "2026-03-14T20:57:07.257138"
+    },
+    {
+      "name": "Configurable check interval",
+      "passed": true,
+      "details": "Orchestrator supports intervals",
+      "timestamp": "2026-03-14T20:57:07.258139"
+    },
+    {
+      "name": "README.md",
+      "passed": true,
+      "details": "Project documentation",
+      "timestamp": "2026-03-14T20:57:07.259140"
+    },
+    {
+      "name": "SILVER_TIER_SUMMARY.md",
+      "passed": true,
+      "details": "Silver tier documentation",
+      "timestamp": "2026-03-14T20:57:07.261142"
+    }
+  ]
+}
