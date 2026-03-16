@@ -118,7 +118,8 @@ class GmailWatcher(BaseWatcher):
                     self.logger.info("Starting OAuth flow...")
                     flow = InstalledAppFlow.from_client_secrets_file(
                         self.credentials_path, SCOPES)
-                    creds = flow.run_local_server(port=0, open_browser=False)
+                    # Use fixed port 8080 to avoid redirect_uri_mismatch
+                    creds = flow.run_local_server(host='127.0.0.1', port=8080, open_browser=False)
                     self.logger.info("OAuth flow complete")
 
                 # Save token

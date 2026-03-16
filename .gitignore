@@ -1,1 +1,21 @@
 git rm --cached credentials.json
+# Sensitive files - never commit
+credentials.json
+token.json
+.env
+
+# Python caches
+*.pyc
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Local logs and state (Vault ke andar)
+AI_Employee_Vault/.gmail_processed.json
+AI_Employee_Vault/Logs/*
+AI_Employee_Vault/Needs_Action/*
+AI_Employee_Vault/Dashboard.md  
+
+# Misc
+*.log
+GMAIL_OAUTH_SETUP.md   
