@@ -39,9 +39,13 @@ from typing import List, Dict, Any, Optional
 # Playwright imports
 from playwright.sync_api import sync_playwright, Page, Browser, BrowserContext
 from playwright._impl._errors import TargetClosedError
+from posthog import page
 
 # Import base watcher
 from base_watcher import BaseWatcher
+
+# from playwright_stealth import stealth_sync  
+# stealth_sync(page)
 
 
 # Keywords indicating business opportunities
@@ -110,7 +114,7 @@ class LinkedInWatcher(BaseWatcher):
             # Launch browser with persistent context
             self.browser = self.playwright.chromium.launch_persistent_context(
                 user_data_dir=str(self.session_path),
-                headless=True,  # Set to False for debugging
+                headless=False,  # Headless mode for normal operation
                 args=[
                     '--disable-blink-features=AutomationControlled',
                     '--no-sandbox',
